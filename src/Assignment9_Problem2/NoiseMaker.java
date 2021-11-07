@@ -1,4 +1,4 @@
-package Problem9_Problem2;
+package Assignment9_Problem2;
 
 public interface NoiseMaker {
 
