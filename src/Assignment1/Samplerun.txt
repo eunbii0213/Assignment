@@ -1,0 +1,775 @@
+Welcome to Wolfie's Car Repair Shop!
+
+
+
+Wolfie's Car Repair Shop Main Menu
+
+----------------------------------
+
+1. Add a new car to the database
+
+2. Record a repair ticket for a car
+
+3. Get the cost for a repair ticket by ticket number
+
+4. Get the total repair costs for a car using VIN
+
+5. Get the make of car that has the greatest total number of repairs
+
+6. Change the cost for a repair by ticket number
+
+7. Delete a repair ticket by ticket number
+
+8. Delete all repair tickets using VIN
+
+9. Delete a car and its repairs from the database using VIN
+
+0. Quit Program
+
+Make your choice: 1
+
+Enter car's VIN: 123asd
+
+Enter car's year: 2005
+
+Enter car's make: Ford
+
+Car #1 successfully added to database.
+
+
+
+Wolfie's Car Repair Shop Main Menu
+
+----------------------------------
+
+1. Add a new car to the database
+
+2. Record a repair ticket for a car
+
+3. Get the cost for a repair ticket by ticket number
+
+4. Get the total repair costs for a car using VIN
+
+5. Get the make of car that has the greatest total number of repairs
+
+6. Change the cost for a repair by ticket number
+
+7. Delete a repair ticket by ticket number
+
+8. Delete all repair tickets using VIN
+
+9. Delete a car and its repairs from the database using VIN
+
+0. Quit Program
+
+Make your choice: 1
+
+Enter car's VIN: 123asd
+
+Enter car's year: 2016
+
+Enter car's make: Ford
+
+Error: car already exists in database.
+
+
+
+Wolfie's Car Repair Shop Main Menu
+
+----------------------------------
+
+1. Add a new car to the database
+
+2. Record a repair ticket for a car
+
+3. Get the cost for a repair ticket by ticket number
+
+4. Get the total repair costs for a car using VIN
+
+5. Get the make of car that has the greatest total number of repairs
+
+6. Change the cost for a repair by ticket number
+
+7. Delete a repair ticket by ticket number
+
+8. Delete all repair tickets using VIN
+
+9. Delete a car and its repairs from the database using VIN
+
+0. Quit Program
+
+Make your choice: 1
+
+Enter car's VIN: 234sdf
+
+Enter car's year: 2016
+
+Enter car's make: Hyundai
+
+Car #2 successfully added to database.
+
+
+
+Wolfie's Car Repair Shop Main Menu
+
+----------------------------------
+
+1. Add a new car to the database
+
+2. Record a repair ticket for a car
+
+3. Get the cost for a repair ticket by ticket number
+
+4. Get the total repair costs for a car using VIN
+
+5. Get the make of car that has the greatest total number of repairs
+
+6. Change the cost for a repair by ticket number
+
+7. Delete a repair ticket by ticket number
+
+8. Delete all repair tickets using VIN
+
+9. Delete a car and its repairs from the database using VIN
+
+0. Quit Program
+
+Make your choice: 1
+
+Enter car's VIN: 345dfg
+
+Enter car's year: 2011
+
+Enter car's make: Jeep
+
+Car #3 successfully added to database.
+
+
+
+Wolfie's Car Repair Shop Main Menu
+
+----------------------------------
+
+1. Add a new car to the database
+
+2. Record a repair ticket for a car
+
+3. Get the cost for a repair ticket by ticket number
+
+4. Get the total repair costs for a car using VIN
+
+5. Get the make of car that has the greatest total number of repairs
+
+6. Change the cost for a repair by ticket number
+
+7. Delete a repair ticket by ticket number
+
+8. Delete all repair tickets using VIN
+
+9. Delete a car and its repairs from the database using VIN
+
+0. Quit Program
+
+Make your choice: 2
+
+Enter car's VIN: 234sdf
+
+Enter repair cost: 35.00
+
+Enter repair description: Service
+
+Repair ticket #1 successfully added to database.
+
+
+
+Wolfie's Car Repair Shop Main Menu
+
+----------------------------------
+
+1. Add a new car to the database
+
+2. Record a repair ticket for a car
+
+3. Get the cost for a repair ticket by ticket number
+
+4. Get the total repair costs for a car using VIN
+
+5. Get the make of car that has the greatest total number of repairs
+
+6. Change the cost for a repair by ticket number
+
+7. Delete a repair ticket by ticket number
+
+8. Delete all repair tickets using VIN
+
+9. Delete a car and its repairs from the database using VIN
+
+0. Quit Program
+
+Make your choice: 5
+
+The car make with most repairs is: Hyundai
+
+
+
+Wolfie's Car Repair Shop Main Menu
+
+----------------------------------
+
+1. Add a new car to the database
+
+2. Record a repair ticket for a car
+
+3. Get the cost for a repair ticket by ticket number
+
+4. Get the total repair costs for a car using VIN
+
+5. Get the make of car that has the greatest total number of repairs
+
+6. Change the cost for a repair by ticket number
+
+7. Delete a repair ticket by ticket number
+
+8. Delete all repair tickets using VIN
+
+9. Delete a car and its repairs from the database using VIN
+
+0. Quit Program
+
+Make your choice: 2
+
+Enter car's VIN: 123asd
+
+Enter repair cost: 20.20
+
+Enter repair description: Headlight
+
+Repair ticket #2 successfully added to database.
+
+
+
+Wolfie's Car Repair Shop Main Menu
+
+----------------------------------
+
+1. Add a new car to the database
+
+2. Record a repair ticket for a car
+
+3. Get the cost for a repair ticket by ticket number
+
+4. Get the total repair costs for a car using VIN
+
+5. Get the make of car that has the greatest total number of repairs
+
+6. Change the cost for a repair by ticket number
+
+7. Delete a repair ticket by ticket number
+
+8. Delete all repair tickets using VIN
+
+9. Delete a car and its repairs from the database using VIN
+
+0. Quit Program
+
+Make your choice: 2
+
+Enter car's VIN: 345sdf
+
+Enter repair cost: 40.00
+
+Enter repair description: Service
+
+Error: could not record repair in database.
+
+
+
+Wolfie's Car Repair Shop Main Menu
+
+----------------------------------
+
+1. Add a new car to the database
+
+2. Record a repair ticket for a car
+
+3. Get the cost for a repair ticket by ticket number
+
+4. Get the total repair costs for a car using VIN
+
+5. Get the make of car that has the greatest total number of repairs
+
+6. Change the cost for a repair by ticket number
+
+7. Delete a repair ticket by ticket number
+
+8. Delete all repair tickets using VIN
+
+9. Delete a car and its repairs from the database using VIN
+
+0. Quit Program
+
+Make your choice: 2
+
+Enter car's VIN: 345dfg
+
+Enter repair cost: 40.00
+
+Enter repair description: Service
+
+Repair ticket #3 successfully added to database.
+
+
+
+Wolfie's Car Repair Shop Main Menu
+
+----------------------------------
+
+1. Add a new car to the database
+
+2. Record a repair ticket for a car
+
+3. Get the cost for a repair ticket by ticket number
+
+4. Get the total repair costs for a car using VIN
+
+5. Get the make of car that has the greatest total number of repairs
+
+6. Change the cost for a repair by ticket number
+
+7. Delete a repair ticket by ticket number
+
+8. Delete all repair tickets using VIN
+
+9. Delete a car and its repairs from the database using VIN
+
+0. Quit Program
+
+Make your choice: 2
+
+Enter car's VIN: 345dfg
+
+Enter repair cost: 200.00
+
+Enter repair description: Tires
+
+Repair ticket #4 successfully added to database.
+
+
+
+Wolfie's Car Repair Shop Main Menu
+
+----------------------------------
+
+1. Add a new car to the database
+
+2. Record a repair ticket for a car
+
+3. Get the cost for a repair ticket by ticket number
+
+4. Get the total repair costs for a car using VIN
+
+5. Get the make of car that has the greatest total number of repairs
+
+6. Change the cost for a repair by ticket number
+
+7. Delete a repair ticket by ticket number
+
+8. Delete all repair tickets using VIN
+
+9. Delete a car and its repairs from the database using VIN
+
+0. Quit Program
+
+Make your choice: 5
+
+The car make with most repairs is: Jeep
+
+
+
+Wolfie's Car Repair Shop Main Menu
+
+----------------------------------
+
+1. Add a new car to the database
+
+2. Record a repair ticket for a car
+
+3. Get the cost for a repair ticket by ticket number
+
+4. Get the total repair costs for a car using VIN
+
+5. Get the make of car that has the greatest total number of repairs
+
+6. Change the cost for a repair by ticket number
+
+7. Delete a repair ticket by ticket number
+
+8. Delete all repair tickets using VIN
+
+9. Delete a car and its repairs from the database using VIN
+
+0. Quit Program
+
+Make your choice: 3
+
+Enter repair ticket number: 4
+
+Repair ticket #4 had a cost of $200.00
+
+
+
+Wolfie's Car Repair Shop Main Menu
+
+----------------------------------
+
+1. Add a new car to the database
+
+2. Record a repair ticket for a car
+
+3. Get the cost for a repair ticket by ticket number
+
+4. Get the total repair costs for a car using VIN
+
+5. Get the make of car that has the greatest total number of repairs
+
+6. Change the cost for a repair by ticket number
+
+7. Delete a repair ticket by ticket number
+
+8. Delete all repair tickets using VIN
+
+9. Delete a car and its repairs from the database using VIN
+
+0. Quit Program
+
+Make your choice: 6
+
+Enter repair ticket number: 4
+
+Enter new repair cost: 250.00
+
+Repair ticket #4 now has a cost of $250.00
+
+
+
+Wolfie's Car Repair Shop Main Menu
+
+----------------------------------
+
+1. Add a new car to the database
+
+2. Record a repair ticket for a car
+
+3. Get the cost for a repair ticket by ticket number
+
+4. Get the total repair costs for a car using VIN
+
+5. Get the make of car that has the greatest total number of repairs
+
+6. Change the cost for a repair by ticket number
+
+7. Delete a repair ticket by ticket number
+
+8. Delete all repair tickets using VIN
+
+9. Delete a car and its repairs from the database using VIN
+
+0. Quit Program
+
+Make your choice: 4
+
+Enter VIN: 345dfg
+
+Total costs to repair car with VIN 345dfg was $290.00
+
+
+
+
+
+
+
+Wolfie's Car Repair Shop Main Menu
+
+----------------------------------
+
+1. Add a new car to the database
+
+2. Record a repair ticket for a car
+
+3. Get the cost for a repair ticket by ticket number
+
+4. Get the total repair costs for a car using VIN
+
+5. Get the make of car that has the greatest total number of repairs
+
+6. Change the cost for a repair by ticket number
+
+7. Delete a repair ticket by ticket number
+
+8. Delete all repair tickets using VIN
+
+9. Delete a car and its repairs from the database using VIN
+
+0. Quit Program
+
+Make your choice: 9
+
+Enter VIN: 345dfg
+
+Deleted car with VIN 345dfg from database.
+
+
+
+Wolfie's Car Repair Shop Main Menu
+
+----------------------------------
+
+1. Add a new car to the database
+
+2. Record a repair ticket for a car
+
+3. Get the cost for a repair ticket by ticket number
+
+4. Get the total repair costs for a car using VIN
+
+5. Get the make of car that has the greatest total number of repairs
+
+6. Change the cost for a repair by ticket number
+
+7. Delete a repair ticket by ticket number
+
+8. Delete all repair tickets using VIN
+
+9. Delete a car and its repairs from the database using VIN
+
+0. Quit Program
+
+Make your choice: 8
+
+Enter VIN: 123asd
+
+Deleted repairs for car with VIN 123asd from database.
+
+
+
+Wolfie's Car Repair Shop Main Menu
+
+----------------------------------
+
+1. Add a new car to the database
+
+2. Record a repair ticket for a car
+
+3. Get the cost for a repair ticket by ticket number
+
+4. Get the total repair costs for a car using VIN
+
+5. Get the make of car that has the greatest total number of repairs
+
+6. Change the cost for a repair by ticket number
+
+7. Delete a repair ticket by ticket number
+
+8. Delete all repair tickets using VIN
+
+9. Delete a car and its repairs from the database using VIN
+
+0. Quit Program
+
+Make your choice: 5
+
+The car make with most repairs is: Hyundai
+
+
+
+Wolfie's Car Repair Shop Main Menu
+
+----------------------------------
+
+1. Add a new car to the database
+
+2. Record a repair ticket for a car
+
+3. Get the cost for a repair ticket by ticket number
+
+4. Get the total repair costs for a car using VIN
+
+5. Get the make of car that has the greatest total number of repairs
+
+6. Change the cost for a repair by ticket number
+
+7. Delete a repair ticket by ticket number
+
+8. Delete all repair tickets using VIN
+
+9. Delete a car and its repairs from the database using VIN
+
+0. Quit Program
+
+Make your choice: 7
+
+Enter repair ticket number: 2
+
+Error: ticket number not found in database.
+
+
+
+Wolfie's Car Repair Shop Main Menu
+
+----------------------------------
+
+1. Add a new car to the database
+
+2. Record a repair ticket for a car
+
+3. Get the cost for a repair ticket by ticket number
+
+4. Get the total repair costs for a car using VIN
+
+5. Get the make of car that has the greatest total number of repairs
+
+6. Change the cost for a repair by ticket number
+
+7. Delete a repair ticket by ticket number
+
+8. Delete all repair tickets using VIN
+
+9. Delete a car and its repairs from the database using VIN
+
+0. Quit Program
+
+Make your choice: 7
+
+Enter repair ticket number: 1
+
+Repair ticket #1 deleted from database.
+
+
+
+Wolfie's Car Repair Shop Main Menu
+
+----------------------------------
+
+1. Add a new car to the database
+
+2. Record a repair ticket for a car
+
+3. Get the cost for a repair ticket by ticket number
+
+4. Get the total repair costs for a car using VIN
+
+5. Get the make of car that has the greatest total number of repairs
+
+6. Change the cost for a repair by ticket number
+
+7. Delete a repair ticket by ticket number
+
+8. Delete all repair tickets using VIN
+
+9. Delete a car and its repairs from the database using VIN
+
+0. Quit Program
+
+Make your choice: 5
+
+No tickets in database.
+
+
+
+Wolfie's Car Repair Shop Main Menu
+
+----------------------------------
+
+1. Add a new car to the database
+
+2. Record a repair ticket for a car
+
+3. Get the cost for a repair ticket by ticket number
+
+4. Get the total repair costs for a car using VIN
+
+5. Get the make of car that has the greatest total number of repairs
+
+6. Change the cost for a repair by ticket number
+
+7. Delete a repair ticket by ticket number
+
+8. Delete all repair tickets using VIN
+
+9. Delete a car and its repairs from the database using VIN
+
+0. Quit Program
+
+Make your choice: 2
+
+Enter car's VIN: 234sdf
+
+Enter repair cost: 100.00
+
+Enter repair description: Tires
+
+Repair ticket #5 successfully added to database.
+
+
+
+Wolfie's Car Repair Shop Main Menu
+
+----------------------------------
+
+1. Add a new car to the database
+
+2. Record a repair ticket for a car
+
+3. Get the cost for a repair ticket by ticket number
+
+4. Get the total repair costs for a car using VIN
+
+5. Get the make of car that has the greatest total number of repairs
+
+6. Change the cost for a repair by ticket number
+
+7. Delete a repair ticket by ticket number
+
+8. Delete all repair tickets using VIN
+
+9. Delete a car and its repairs from the database using VIN
+
+0. Quit Program
+
+Make your choice: 2
+
+Enter car's VIN: 345dfg
+
+Enter repair cost: 1000.00
+
+Enter repair description: Repair
+
+Error: could not record repair in database.
+
+
+
+Wolfie's Car Repair Shop Main Menu
+
+----------------------------------
+
+1. Add a new car to the database
+
+2. Record a repair ticket for a car
+
+3. Get the cost for a repair ticket by ticket number
+
+4. Get the total repair costs for a car using VIN
+
+5. Get the make of car that has the greatest total number of repairs
+
+6. Change the cost for a repair by ticket number
+
+7. Delete a repair ticket by ticket number
+
+8. Delete all repair tickets using VIN
+
+9. Delete a car and its repairs from the database using VIN
+
+0. Quit Program
+
+Make your choice: 0
