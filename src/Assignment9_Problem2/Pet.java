@@ -1,6 +1,6 @@
 package Assignment9_Problem2;
 
-public abstract class Pet implements Comparable{
+public abstract class Pet implements Comparable<Pet>{
 	
 	
 	public Pet(int age) {
@@ -12,16 +12,15 @@ public abstract class Pet implements Comparable{
 	public abstract void eat();
 	
 	@Override 
-	public int compareTo(Object o) {
+	public int compareTo(Pet o) {
+	
 		
-		Pet compare = (Pet)o;
-		
-		if(this.age > compare.age) {
+		if(this.age > o.age) {
 			return 1;
 			//내가 더 나이많당
 		}
 		
-		else if(this.age < compare.age) {
+		else if(this.age < o.age) {
 			return -1;
 			//내가 더 나이적당
 		}

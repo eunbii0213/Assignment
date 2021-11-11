@@ -17,11 +17,6 @@ public class Ship extends Boat{
 		
 	}
 	
-	@Override
-	public int compareTo(Object o) {
-		return (super.compareTo(o));
-		
-	}
 
 
 }
