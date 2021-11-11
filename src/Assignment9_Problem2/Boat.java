@@ -8,12 +8,6 @@ public class Boat extends Vehicle{
 	}
 
 	@Override
-	public int compareTo(Object o) {
-		
-		return (super.compareTo(o));
-	}
-
-	@Override
 	public void move() {
 		System.out.println("보트 : 출발합니당");
 		

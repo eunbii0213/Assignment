@@ -28,12 +28,13 @@ public class ObjectTester {
 		v.move();
 		
 		//ship : 출발 출력
-		//질문 : Boat class는 Ship class의 서브클래스 혹은 슈퍼클래스가 아니라서 캐스팅이 안되는건가요?
+		//보트이긴 보트인데 ship instance기때문에 ship.move() 실행 
+		//Boat는 ship의 슈퍼클래스 >> ship에 move()를 override했으니 자식클래스의 move()가 호출됨 
 		((Boat)v).move();
+		
 		
 		//ship : 닻 내려간당 출력
 		((Ship)v).dropAnchor();
-		
 		
 		
 		Taxi t = new Taxi(1800);
@@ -58,8 +59,8 @@ public class ObjectTester {
 		
 		System.out.println(v.equals(t));
 		
-		//System.out.println(t.compareTo(p1);
-		//슈퍼클래스가 다르기 때문에 업캐스팅 할 수 없어서 error. 
+		//System.out.println(t.compareTo(p1));
+		//타입이 다르기 때문에 업캐스팅 할 수 없어서 error. 
 		
 		//Cat c = p1; >> 다운캐스팅은 생략불가. Cat c = (Cat)p1;해줘야함
 		//Noisemaker n3 = p1; >>Pet은 Noisemaker구현한 class가 아니라서 업캐스팅 불가 
