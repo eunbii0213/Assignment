@@ -18,6 +18,7 @@ public abstract class Vehicle extends Object implements Comparable{
 	@Override
 	public boolean equals(Object other) {
 		
+		//업캐스팅 시킴 
 		Vehicle compare = (Vehicle)other;
 		
 		if(compare.price > price) {

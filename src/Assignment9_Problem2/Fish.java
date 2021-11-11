@@ -11,7 +11,7 @@ public class Fish extends Pet{
 
 	@Override
 	public void eat() {
-		System.out.println("생선: 냠냠 ");
+		System.out.println("물고기: 냠냠 ");
 		
 	}
 
