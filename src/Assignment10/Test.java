@@ -44,7 +44,6 @@ public class Test {
 				end--;
 			}
 			
-			//왜 start가 end랑 같을 때도 swap을 해야하는거지??
 			if(start<=end) {
 				swap(arr,start,end);
 				start++;
