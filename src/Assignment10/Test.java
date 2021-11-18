@@ -3,7 +3,7 @@ package Assignment10;
 public class Test {
 
 	public static void main(String[] args) {
-		int[] arr = {3,9,4,7,0,5,1,6,8,2};
+		int[] arr = {3,9,4,7,5,0,1,6,8,2};
 		
 		quickSort(arr,0,arr.length-1);
 		
