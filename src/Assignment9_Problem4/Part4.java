@@ -1,4 +1,4 @@
-package Assignment9_Problem4_Part1;
+package Assignment9_Problem4;
 
 public class Part4 {
 

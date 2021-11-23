@@ -1,4 +1,4 @@
-package Assignment9_Problem4_Part1;
+package Assignment9_Problem4;
 
 public class UseRecursion {
 
@@ -26,6 +26,10 @@ public class UseRecursion {
 		Part6 mobius = new Part6();
 		mobius.mobius("Hello","Java");
 		System.out.println("\n"); 
+		
+		System.out.println("part7 >>");
+		Part7 teddybear = new Part7();
+		System.out.println(teddybear.teddy(10, 4, 2));
 		
 	}
 
