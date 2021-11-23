@@ -1,45 +1,21 @@
 package Assignment9_Problem4;
 
 public class Part3 {
-	
-	static int  A = 65;
-	static char[] arr;
-	static int count=0;
-	static int upperCase =0;
-	
-	public int count(String str) {
-		
-		arr = str.toCharArray();
-		
-		if(count==str.length()) {
-			
-			return upperCase;
-		}
-		
-		
-		if(arr[count]==(A)) {
-			
-			upperCase++;
-			count++;
-			A=65;
-			return count(str);
-		}
-		
-		else if(A>91) {
-			
-			A=65;count++;
-			return count(str);
-			
-		}
-		
-		else {
-			
-			A++;
-			return count(str);
-			
-		}
-		
+
+	 public static int count(String str) {
+	        return count(str, str.length() - 1);
+	    }
+
+	    public static int count(String str, int high) {
+	        if (high < 0) {
+	            return 0;
+	        }
+
+	        char c = str.charAt(high);
+	        int cnt = 0;
+	        if (c >= 'A' && c <= 'Z') {
+	            cnt = 1;
+	        }
+	        return cnt + count(str, high - 1);
+	    }
 	}
-	
-	//public static int count(String str, int high) {}
-}
