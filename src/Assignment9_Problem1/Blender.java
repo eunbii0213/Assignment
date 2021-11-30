@@ -11,7 +11,7 @@ public class Blender extends CookingAppliance{
 
 	@Override
 	public void clean() {
-		System.out.println("Cleaning the Blender");
+		System.out.println("Cleaning the Blender.");
 		
 	}
 

@@ -7,11 +7,6 @@ public class Taxi extends Vehicle implements NoiseMaker{
 		// TODO Auto-generated constructor stub
 	}
 
-	@Override
-	public int compareTo(Object o) {
-		return (super.compareTo(o));
-		
-	}
 
 	@Override
 	public void move() {
