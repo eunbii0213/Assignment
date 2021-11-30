@@ -4,28 +4,19 @@ import java.util.Arrays;
 
 public class Part4 {
 	
-	public static int findTimes10(int[] nums) {
-		
-		int index=0;
+	public static int findTimes10(int[] nums, int low) {
+        if (low + 1 >= nums.length) {
+            return -1;
+        }
 
-		if(index >= nums.length-2) {
-			return -1;
-		}
-		
-		if(nums[index]*10==nums[index+1]) {
-			return index;
-			
-		} else {
-			
-			int[] arr = Arrays.copyOfRange(nums,index,nums.length);
+        if (nums[low] * 10 == nums[low + 1]) {
+            return low;
+        } else {
+            return findTimes10(nums, low + 1);
+        }
+    }
 
-			return 1+ findTimes10(arr);
-			 
-		}
-
-	}
-	
-	
-	
-	
+    public static int findTimes10(int[] nums) {
+        return findTimes10(nums, 0);
+    }
 }

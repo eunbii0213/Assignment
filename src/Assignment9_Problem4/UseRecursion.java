@@ -33,7 +33,9 @@ public class UseRecursion {
 		
 		System.out.println("part7 >>");
 		Part7 teddybear = new Part7();
-		System.out.println(teddybear.teddy(10, 4, 2));
+		System.out.println(teddybear.teddy(10,4,2));
+		System.out.println(teddybear.teddy(9,5,3));
+		
 		
 	}
 

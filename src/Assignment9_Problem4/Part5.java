@@ -16,9 +16,7 @@ public class Part5 {
 			System.out.print(nums[index]+" ");
 			index++;
 			replaceMult5(nums,newVal);
-		}
-		
-		else {
+		}else {
 			System.out.print(nums[index]+" ");
 			index++;
 			replaceMult5(nums,newVal);
